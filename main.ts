@@ -2,7 +2,7 @@ Deno.serve({ hostname: "0.0.0.0", port: 8000 }, (req) => {
     const url = new URL(req.url);
     const path = url.pathname;
   
-    if (path === "/hello") {
+    if (path === "/hello, John! You are awesome...") {
       return new Response(JSON.stringify({ message: "Hello, World!" })+ "\n", {
         headers: { "Content-Type": "application/json" },
       });
