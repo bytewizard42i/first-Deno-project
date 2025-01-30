@@ -1,5 +1,5 @@
 Start by initializing the server with:
-deno run --allow-net main.ts <path to file for exe>
+deno run --allow-net <main.ts or path to file for exe>
 
 If the file has multiple API endpoints, the server will state that it is listening on port 8000. In this case, open a new terminal to serve as the client, as the main terminal is now "the server"
 
